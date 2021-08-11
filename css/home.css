@@ -8,6 +8,7 @@
  grid-column-gap: 20px;
 }
 
+
 @media only screen and (max-width: 700px) {
   .mobile_img {
     display: block !important;
@@ -18,6 +19,10 @@
   .spend_box{
  grid-template-columns: 1fr;
 }
+}
+
+.mobile_img{
+ height: 110vw;
 }
 
 /* gallery css start  */
