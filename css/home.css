@@ -123,16 +123,36 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
  margin-top: 20px;
 }
 
+/* location btns start  */
+.cammy_location_btns{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-column-gap: 10px;
+}
+.cammy_location_btn{
+      background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);  
+	     box-shadow: 0 3px 10px -5px rgb(0 0 0);
+      color: #fff;
+      margin-top: 20px;
+}
+/* location btns end  */
+
 @media only screen and (max-width: 1024px) {
  .cammy_card{
   grid-template-columns: 1fr 1fr 1fr 1fr;
  }
+  .cammy_location_btns{
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 }
 
 @media only screen and (max-width: 768px) {
  .cammy_card{
   grid-template-columns: 1fr 1fr 1fr;
  }
+  .cammy_location_btns{
+ grid-template-columns: 1fr 1fr 1fr;
+}
 }
 
 @media only screen and (max-width: 425px) {
@@ -142,6 +162,12 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
  .cammy_img_category .cammy_span_color{
   font-size: 13px !important;
  }
+ .cammy_location_btns{
+ grid-template-columns: 1fr 1fr;
+}
+.cammy_location_btn{
+ font-size: 13px;
+}
 }
 
 /* gallery css end  */
@@ -262,3 +288,6 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
    margin-top: 2px;
 }
 /* new section category end  */
+
+
+
