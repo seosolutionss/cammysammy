@@ -8,6 +8,12 @@
  grid-column-gap: 20px;
 }
 
+.first_container h3{
+ text-align: left !important;
+}
+.first_container {
+    height: 100%;
+}
 
 @media only screen and (max-width: 700px) {
   .mobile_img {
