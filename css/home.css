@@ -31,6 +31,29 @@
  height: 110vw;
 }
 
+/* cammy_awards start  */
+.cammy_awards{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-column-gap: 10px;
+}
+.cammy_awards img{
+ margin-top: 20px;
+}
+/* cammy_awards end  */
+
+/* three_grid start */
+.three_grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-column-gap: 10px;
+}
+.three_grid_box{
+ border: 1px dashed #fff;
+ margin-bottom: 10px;
+}
+/* three_grid end */
+
 /* gallery css start  */
 .cammy_card{
  display: grid;
@@ -155,6 +178,12 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
   .cammy_location_btns{
  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.cammy_awards{
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.three_grid{
+ grid-template-columns: 1fr 1fr 1fr;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -164,9 +193,18 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
   .cammy_location_btns{
  grid-template-columns: 1fr 1fr 1fr;
 }
+.cammy_awards{
+ grid-template-columns: 1fr 1fr 1fr;
+}
+.three_grid{
+ grid-template-columns: 1fr 1fr;
+}
 }
 
 @media only screen and (max-width: 425px) {
+ .cammy_price_img{
+  width: 90vw !important;
+ }
  .cammy_card{
   grid-template-columns: 1fr 1fr;
  }
@@ -178,6 +216,15 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
 }
 .cammy_location_btn{
  font-size: 13px;
+}
+.cammy_awards{
+ grid-template-columns: 1fr 1fr;
+}
+.three_grid{
+ grid-template-columns: 1fr;
+}
+.three_grid_box{
+ padding: 10px;
 }
 }
 
@@ -299,6 +346,13 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
    margin-top: 2px;
 }
 /* new section category end  */
+.cammy_price_img{
+ width: 300px;
+}
 
+.cammy_price_img{
+ width: 55%;
+ margin: 0px auto;
+}
 
 
