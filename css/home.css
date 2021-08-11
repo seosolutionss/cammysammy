@@ -54,6 +54,45 @@
 }
 /* three_grid end */
 
+/* section_cammy_contact start  */
+
+.cammy_home_contact_box{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cammy_heart{
+ width: 30px !important;
+ margin: 20px 0px;
+}
+
+.contact_human{
+ width: 156px !important;
+}
+
+.contact_us {
+ color: goldenrod;
+ font-size: 1.8em;
+}
+
+.cammy_home_contact_one .book_online{
+ color: goldenrod;
+ font-size: 1.2em;
+}
+.cammy_home_contact_one .cammy_pics{
+ color: goldenrod;
+ font-size: 1.2em;
+}
+
+.section_cammy_contact{
+ background-color: rgb(26, 25, 24);
+}
+.cammy_home_contact_box{
+ padding: 20px 0px;
+}
+
+/* section_cammy_contact end  */
+
 /* gallery css start  */
 .cammy_card{
  display: grid;
@@ -169,6 +208,19 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
       color: #fff;
       margin-top: 20px;
 }
+
+.cammy_last_btns{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-column-gap: 10px;
+}
+
+.cammy_last_btn{
+      background: linear-gradient(#b30303 0, #8f0808 100%);  
+	     box-shadow: 0 3px 10px -5px rgb(0 0 0);
+      color: #fff;
+      margin-top: 20px;
+}
 /* location btns end  */
 
 @media only screen and (max-width: 1024px) {
@@ -184,6 +236,13 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
 .three_grid{
  grid-template-columns: 1fr 1fr 1fr;
 }
+.cammy_home_contact_box{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+.cammy_last_btns{
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -197,6 +256,13 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
  grid-template-columns: 1fr 1fr 1fr;
 }
 .three_grid{
+ grid-template-columns: 1fr 1fr;
+}
+.cammy_home_contact_box{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+.cammy_last_btns{
  grid-template-columns: 1fr 1fr;
 }
 }
@@ -225,6 +291,15 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
 }
 .three_grid_box{
  padding: 10px;
+}
+.cammy_home_contact_box{
+ grid-template-columns: 1fr;
+}
+.cammy_last_btns{
+ grid-template-columns: 1fr;
+}
+.cammy_last_btn{
+ font-size: 15px;
 }
 }
 
@@ -354,5 +429,4 @@ background: linear-gradient(rgb(218, 165, 32) 0, rgb(197, 143, 5) 0 100%);
  width: 55%;
  margin: 0px auto;
 }
-
 
