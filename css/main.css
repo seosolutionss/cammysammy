@@ -24,7 +24,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   background: var(--offWhite);
-  line-height: 1.4;
+  /* line-height: 1.4; */
   font-size: 1rem;
 }
 
@@ -57,7 +57,7 @@ h4 {
 
 p {
   margin-bottom: 1.25rem;
-  line-height: 2;
+  line-height: 1.4em;
   font-weight: 300;
   color: #fff;
 }
@@ -280,7 +280,7 @@ body {
     display: none;
   }
   .nav-links {
-    height: auto;
+    height: 20px !important;
     display: flex;
   }
   .nav-center {
