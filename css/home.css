@@ -219,7 +219,7 @@
 }
 
 .cammy_img_footer {
-  background: linear-gradient(#f70505 0, #8f0808 100%);
+  background: linear-gradient(#f70505 0, #ff0e0e 100%);
   box-shadow: 0 3px 10px -5px rgb(0 0 0);
   display: flex;
   justify-content: space-around;
