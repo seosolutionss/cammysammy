@@ -235,8 +235,6 @@
 }
 
 .cammy_span_color {
-  background: linear-gradient(#daa520 0, #c58f05 0 100%);
-  box-shadow: 0 3px 10px -5px rgb(0 0 0);
   padding: 2px 4px;
   border-radius: 2px;
 }
@@ -566,4 +564,22 @@
 .second_banner {
   height: 33vw;
   width: 100%;
+}
+
+.home_video {
+  width: 50vw;
+  margin: 0px auto;
+}
+
+.cammy_img_box {
+  overflow: hidden;
+}
+.cammy_img_footer {
+  z-index: 999 !important;
+  position: relative;
+}
+
+.cammy_img_box:hover .cammy_profile {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
