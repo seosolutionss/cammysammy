@@ -298,7 +298,7 @@ body {
     display: none;
   }
   .nav-links {
-    height: 20px !important;
+    height: 2vw !important;
     display: flex;
   }
   .nav-center {
