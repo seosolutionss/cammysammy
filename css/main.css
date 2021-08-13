@@ -288,6 +288,9 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .banner {
+    height: 36vw;
+  }
   .nav_img {
     display: none !important;
   }
@@ -316,6 +319,7 @@ body {
   }
   .navbar {
     border-bottom: 1px solid #fd3103;
+    height: 6vw;
   }
   .nav-center {
     width: 100%;
