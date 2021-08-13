@@ -238,6 +238,7 @@ body {
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
   transition: var(--mainTransition);
+  text-align: center;
 }
 
 .nav-link:hover {
